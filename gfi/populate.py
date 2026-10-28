@@ -38,7 +38,6 @@ if not path.exists(LABELS_DATA_FILE):
 
 with open(LABELS_DATA_FILE) as labels_file:
     LABELS_DATA = json.load(labels_file)
-
     ISSUE_LABELS = LABELS_DATA["labels"]
 
 
